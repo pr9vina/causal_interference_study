@@ -1,0 +1,19 @@
+,Network,Assignment,Influence,Treatment,Feature Names,Mean Estimated,Mean True,Perc Diff Overall (%),Mean Bias,Bias Lower Bound (95%),Bias Upper Bound (95%),FPR
+0,barabasi_albert_graph,random,0.3,0.3,treated_neighbors_exposure,1.016,0.3,238.744,0.716,0.56166,0.869563,0.06
+1,barabasi_albert_graph,random,0.3,0.3,treated_neighbors_count,1.203,0.3,300.991,0.903,0.75329,1.049091,0.09
+2,barabasi_albert_graph,random,0.6,0.3,treated_neighbors_exposure,1.307,0.3,335.709,1.007,0.87216,1.13956,0.01
+3,barabasi_albert_graph,random,0.6,0.3,treated_neighbors_count,1.749,0.3,482.943,1.449,1.303475,1.598462,0.11
+4,barabasi_albert_graph,random,0.9,0.3,treated_neighbors_exposure,2.883,0.3,860.968,2.583,2.300537,2.863189,0.18
+5,barabasi_albert_graph,random,0.9,0.3,treated_neighbors_count,4.891,0.3,1530.342,4.591,4.074725,5.094592,0.61
+6,watts_strogatz_graph,random,0.3,0.3,treated_neighbors_exposure,1.247,0.3,315.747,0.947,0.803106,1.085283,0.06
+7,watts_strogatz_graph,random,0.3,0.3,treated_neighbors_count,1.297,0.3,332.319,0.997,0.846807,1.142381,0.07
+8,watts_strogatz_graph,random,0.6,0.3,treated_neighbors_exposure,1.542,0.3,414.062,1.242,1.04821,1.431508,0.06
+9,watts_strogatz_graph,random,0.6,0.3,treated_neighbors_count,1.64,0.3,446.629,1.34,1.151583,1.523641,0.04
+10,watts_strogatz_graph,random,0.9,0.3,treated_neighbors_exposure,4.26,0.3,1320.161,3.96,3.324269,4.604796,0.15
+11,watts_strogatz_graph,random,0.9,0.3,treated_neighbors_count,4.65,0.3,1449.903,4.35,3.70643,4.991912,0.17
+12,erdos_renyi_graph,random,0.3,0.3,treated_neighbors_exposure,0.694,0.3,131.399,0.394,0.245625,0.54081,0.02
+13,erdos_renyi_graph,random,0.3,0.3,treated_neighbors_count,0.727,0.3,142.437,0.427,0.281976,0.574468,0.03
+14,erdos_renyi_graph,random,0.6,0.3,treated_neighbors_exposure,0.642,0.3,114.029,0.342,0.172967,0.51102,0.04
+15,erdos_renyi_graph,random,0.6,0.3,treated_neighbors_count,0.701,0.3,133.535,0.401,0.234524,0.566196,0.06
+16,erdos_renyi_graph,random,0.9,0.3,treated_neighbors_exposure,1.184,0.3,294.759,0.884,0.698621,1.072835,0.05
+17,erdos_renyi_graph,random,0.9,0.3,treated_neighbors_count,0.884,0.3,194.615,0.584,0.421467,0.746745,0.07

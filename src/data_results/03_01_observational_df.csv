@@ -1,0 +1,55 @@
+,Network,Assignment,Influence,Treatment,Feature Names,Mean Estimated,Mean True,Perc Diff Overall (%),Mean Bias,Bias Lower Bound (95%),Bias Upper Bound (95%),FPR
+0,barabasi_albert_graph,covariate_block_random,0.3,0.3,"covariate_0, covariate_1",0.75,0.3,149.985,0.3366964076931657,0.1925850164316561,0.48080779895467535,0.23
+1,barabasi_albert_graph,covariate_block_random,0.3,0.3,"covariate_0, covariate_1, treated_neighbors_count",0.75,0.3,149.985,0.2937428909090675,0.15044432225560594,0.4370414595625291,0.22
+2,barabasi_albert_graph,covariate_block_random,0.3,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality, community",0.75,0.3,149.985,0.3236707668419871,0.18112259648622764,0.46621893719774654,0.23
+3,barabasi_albert_graph,covariate_block_random,0.3,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality",0.75,0.3,149.985,0.3340903299561923,0.19205631240279641,0.4761243475095882,0.23
+4,barabasi_albert_graph,covariate_block_random,0.3,0.3,"covariate_0, covariate_1, community",0.75,0.3,149.985,0.32065492704347454,0.17745005291542001,0.46385980117152903,0.23
+5,barabasi_albert_graph,covariate_block_random,0.3,0.3,Node2Vec,0.75,0.3,149.985,0.23803755260307707,0.09703319290401813,0.379041912302136,0.23
+6,barabasi_albert_graph,covariate_block_random,0.6,0.3,"covariate_0, covariate_1",1.366,0.3,355.224,0.753764078732819,0.5150799260468496,0.9924482314187885,0.38
+7,barabasi_albert_graph,covariate_block_random,0.6,0.3,"covariate_0, covariate_1, treated_neighbors_count",1.366,0.3,355.224,0.7854273773154304,0.5448699437734252,1.0259848108574356,0.37
+8,barabasi_albert_graph,covariate_block_random,0.6,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality, community",1.366,0.3,355.224,0.8036810836616093,0.561189853625446,1.0461723136977725,0.41
+9,barabasi_albert_graph,covariate_block_random,0.6,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality",1.366,0.3,355.224,0.8455919197843343,0.6015323936868662,1.0896514458818025,0.4
+10,barabasi_albert_graph,covariate_block_random,0.6,0.3,"covariate_0, covariate_1, community",1.366,0.3,355.224,0.7535811284052816,0.5147714811443553,0.9923907756662078,0.4
+11,barabasi_albert_graph,covariate_block_random,0.6,0.3,Node2Vec,1.366,0.3,355.224,0.5488779767939157,0.30616590867430943,0.791590044913522,0.39
+12,barabasi_albert_graph,covariate_block_random,0.8999999999999999,0.3,"covariate_0, covariate_1",5.374,0.3,1691.275,3.807057676548401,2.8338178840130253,4.780297469083777,0.78
+13,barabasi_albert_graph,covariate_block_random,0.8999999999999999,0.3,"covariate_0, covariate_1, treated_neighbors_count",5.374,0.3,1691.275,3.656094753137481,2.66810831559605,4.644081190678912,0.79
+14,barabasi_albert_graph,covariate_block_random,0.8999999999999999,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality, community",5.374,0.3,1691.275,3.8758413908523552,2.882194983266754,4.869487798437957,0.78
+15,barabasi_albert_graph,covariate_block_random,0.8999999999999999,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality",5.374,0.3,1691.275,3.8358008668601937,2.855988086293917,4.815613647426471,0.78
+16,barabasi_albert_graph,covariate_block_random,0.8999999999999999,0.3,"covariate_0, covariate_1, community",5.374,0.3,1691.275,3.714134986958888,2.721733287168326,4.70653668674945,0.78
+17,barabasi_albert_graph,covariate_block_random,0.8999999999999999,0.3,Node2Vec,5.374,0.3,1691.275,2.4461452733771805,1.4464586623874132,3.4458318843669478,0.79
+18,watts_strogatz_graph,covariate_block_random,0.3,0.3,"covariate_0, covariate_1",0.75,0.3,149.985,0.3322982664423662,0.18682462146046444,0.477771911424268,0.23
+19,watts_strogatz_graph,covariate_block_random,0.3,0.3,"covariate_0, covariate_1, treated_neighbors_count",0.75,0.3,149.985,0.3390324841608919,0.1980693142335109,0.4799956540882728,0.22
+20,watts_strogatz_graph,covariate_block_random,0.3,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality, community",0.75,0.3,149.985,0.34643876410603414,0.2052510429685371,0.48762648524353114,0.23
+21,watts_strogatz_graph,covariate_block_random,0.3,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality",0.75,0.3,149.985,0.35891122701796224,0.21849963653168464,0.49932281750423985,0.23
+22,watts_strogatz_graph,covariate_block_random,0.3,0.3,"covariate_0, covariate_1, community",0.75,0.3,149.985,0.32078949076583757,0.17871771211398652,0.4628612694176886,0.23
+23,watts_strogatz_graph,covariate_block_random,0.3,0.3,Node2Vec,0.75,0.3,149.985,0.2447959505578596,0.10196150738950749,0.3876303937262117,0.23
+24,watts_strogatz_graph,covariate_block_random,0.6,0.3,"covariate_0, covariate_1",1.366,0.3,355.224,0.7370722321712704,0.49627122040091864,0.9778732439416221,0.38
+25,watts_strogatz_graph,covariate_block_random,0.6,0.3,"covariate_0, covariate_1, treated_neighbors_count",1.366,0.3,355.224,0.7946459126607621,0.5575359239993254,1.0317559013221989,0.37
+26,watts_strogatz_graph,covariate_block_random,0.6,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality, community",1.366,0.3,355.224,0.8183143842633768,0.5776292026678667,1.0589995658588869,0.41
+27,watts_strogatz_graph,covariate_block_random,0.6,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality",1.366,0.3,355.224,0.8084861199301664,0.5678094890479293,1.0491627508124035,0.4
+28,watts_strogatz_graph,covariate_block_random,0.6,0.3,"covariate_0, covariate_1, community",1.366,0.3,355.224,0.7795860693561374,0.5352053729373862,1.0239667657748885,0.4
+29,watts_strogatz_graph,covariate_block_random,0.6,0.3,Node2Vec,1.366,0.3,355.224,0.5050242504335744,0.26024506401505615,0.7498034368520925,0.39
+30,watts_strogatz_graph,covariate_block_random,0.8999999999999999,0.3,"covariate_0, covariate_1",5.374,0.3,1691.275,3.730455397726232,2.7569738039763827,4.703936991476081,0.78
+31,watts_strogatz_graph,covariate_block_random,0.8999999999999999,0.3,"covariate_0, covariate_1, treated_neighbors_count",5.374,0.3,1691.275,3.715786896697952,2.7268717142296555,4.704702079166248,0.79
+32,watts_strogatz_graph,covariate_block_random,0.8999999999999999,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality, community",5.374,0.3,1691.275,3.9348264312085406,2.9386502582716876,4.931002604145394,0.78
+33,watts_strogatz_graph,covariate_block_random,0.8999999999999999,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality",5.374,0.3,1691.275,3.8598448972735993,2.8771207780378156,4.842569016509383,0.78
+34,watts_strogatz_graph,covariate_block_random,0.8999999999999999,0.3,"covariate_0, covariate_1, community",5.374,0.3,1691.275,3.7000253014094233,2.7125181690041003,4.687532433814747,0.78
+35,watts_strogatz_graph,covariate_block_random,0.8999999999999999,0.3,Node2Vec,5.374,0.3,1691.275,2.5724570930384494,1.5841142360826264,3.5607999499942724,0.79
+36,erdos_renyi_graph,covariate_block_random,0.3,0.3,"covariate_0, covariate_1",0.75,0.3,149.985,0.2831485435318342,0.140116535029611,0.42618055203405747,0.23
+37,erdos_renyi_graph,covariate_block_random,0.3,0.3,"covariate_0, covariate_1, treated_neighbors_count",0.75,0.3,149.985,0.28997363860432596,0.14955238470794766,0.4303948925007043,0.22
+38,erdos_renyi_graph,covariate_block_random,0.3,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality, community",0.75,0.3,149.985,0.28749998936596877,0.14948063383849242,0.4255193448934451,0.23
+39,erdos_renyi_graph,covariate_block_random,0.3,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality",0.75,0.3,149.985,0.26780856735255204,0.12680482433042958,0.40881231037467447,0.23
+40,erdos_renyi_graph,covariate_block_random,0.3,0.3,"covariate_0, covariate_1, community",0.75,0.3,149.985,0.2714375559573409,0.12702725893462088,0.415847852980061,0.23
+41,erdos_renyi_graph,covariate_block_random,0.3,0.3,Node2Vec,0.75,0.3,149.985,0.19908846366916402,0.05555200180386413,0.3426249255344639,0.23
+42,erdos_renyi_graph,covariate_block_random,0.6,0.3,"covariate_0, covariate_1",1.366,0.3,355.224,0.6804396410885623,0.43872476851747516,0.9221545136596494,0.38
+43,erdos_renyi_graph,covariate_block_random,0.6,0.3,"covariate_0, covariate_1, treated_neighbors_count",1.366,0.3,355.224,0.6602515670250266,0.4190208611007614,0.9014822729492918,0.37
+44,erdos_renyi_graph,covariate_block_random,0.6,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality, community",1.366,0.3,355.224,0.6646721297182149,0.42423360548102385,0.9051106539554059,0.41
+45,erdos_renyi_graph,covariate_block_random,0.6,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality",1.366,0.3,355.224,0.7017797233673139,0.45815974302375584,0.9453997037108719,0.4
+46,erdos_renyi_graph,covariate_block_random,0.6,0.3,"covariate_0, covariate_1, community",1.366,0.3,355.224,0.6420015469850302,0.40289892013954354,0.8811041738305169,0.4
+47,erdos_renyi_graph,covariate_block_random,0.6,0.3,Node2Vec,1.366,0.3,355.224,0.4652161742498178,0.22439988527515042,0.7060324632244852,0.39
+48,erdos_renyi_graph,covariate_block_random,0.8999999999999999,0.3,"covariate_0, covariate_1",5.374,0.3,1691.275,3.1151022344465127,2.1280865892768746,4.10211787961615,0.78
+49,erdos_renyi_graph,covariate_block_random,0.8999999999999999,0.3,"covariate_0, covariate_1, treated_neighbors_count",5.374,0.3,1691.275,3.1127445672447527,2.121648859941417,4.103840274548088,0.79
+50,erdos_renyi_graph,covariate_block_random,0.8999999999999999,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality, community",5.374,0.3,1691.275,3.31313581240949,2.319152467356166,4.307119157462814,0.78
+51,erdos_renyi_graph,covariate_block_random,0.8999999999999999,0.3,"covariate_0, covariate_1, degree_centrality, betweenness_centrality",5.374,0.3,1691.275,3.2715248766429577,2.2970324013929186,4.246017351892997,0.78
+52,erdos_renyi_graph,covariate_block_random,0.8999999999999999,0.3,"covariate_0, covariate_1, community",5.374,0.3,1691.275,3.269712436792017,2.268817837479475,4.270607036104559,0.78
+53,erdos_renyi_graph,covariate_block_random,0.8999999999999999,0.3,Node2Vec,5.374,0.3,1691.275,2.3297999840250316,1.352991629362371,3.3066083386876923,0.79
