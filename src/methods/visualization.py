@@ -506,7 +506,6 @@ def plot_bias_full_corruption(
 
     plt.tight_layout(rect=[0, 0.05, 1, 1])
     
-
     networks_in_plot = subset["Network"].unique()
     combined_legend = [
     Line2D(
@@ -613,7 +612,6 @@ def plot_bias_full_corruption(
 
     plt.tight_layout(rect=[0, 0.05, 1, 1])
     
-
     networks_in_plot = subset["Network"].unique()
     combined_legend = [
     Line2D(
